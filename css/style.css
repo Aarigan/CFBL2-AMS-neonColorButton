@@ -59,7 +59,9 @@ button {
   animation: neon-color 2s linear infinite;
 }
 
-.button1:hover {
+.button1:hover,
+.button1:focus,
+.button1:active {
   color: var(--clr-black);
   background: linear-gradient(135deg, #fcf23b, #c23bfc, #01e3ef, #2ffd14);
   box-shadow: none;
@@ -82,7 +84,9 @@ button {
   animation: neon-color 1.5s linear infinite;
 }
 
-.button2:hover {
+.button2:hover,
+.button2:focus,
+.button2:active {
   color: var(--clr-white);
   background: radial-gradient(ellipse farthest-side at left top, #ecc1ff, #c23bfc, #0144ef);
   box-shadow: none;
@@ -105,7 +109,9 @@ button {
   animation: neon-color 1.8s linear infinite;
 }
 
-.button3:hover {
+.button3:hover,
+.button3:focus,
+.button3:active {
   color: var(--clr-white);
   background: linear-gradient(#129b00, #01b6c0, #a19900, #b812ff);
   box-shadow: none;
@@ -128,7 +134,9 @@ button {
   animation: neon-color 1.5s linear infinite;
 }
 
-.button4:hover {
+.button4:hover,
+.button4:focus,
+.button4:active {
   color: var(--clr-white);
   background: radial-gradient(ellipse farthest-side at left top, #00288f 50%, #5886fa);
   box-shadow: none;
@@ -154,7 +162,9 @@ button {
   animation: neon-color 2.5s linear infinite;
 }
 
-.button5:hover {
+.button5:hover,
+.button5:focus,
+.button5:active {
   color: var(--clr-black);
   transition-delay: .7s;
   background: radial-gradient(#fcf23b 10%, #c23bfc, #01e3ef, #2ffd14);
